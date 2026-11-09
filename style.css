@@ -1,0 +1,21 @@
+.nav{
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-flow: row wrap;
+}
+.nav .logo{
+    margin-right: 530px;
+}
+.nav div{
+    flex: 0 1 auto;
+    margin:20px;
+}
+.nav a{
+    margin: 0 10px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
