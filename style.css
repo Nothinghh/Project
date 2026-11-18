@@ -98,6 +98,38 @@ a {
     margin-bottom: 16px;
 }
 
+/* Crowns + hearts on every image */
+.hero .right,
+.img-wrap {
+    position: relative;
+}
+
+.img-wrap img {
+    display: block;
+}
+
+.deco {
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+.heart {
+    fill: #ff0099;
+}
+
+/* hero image (big) */
+.hero .crown   { top: -34px; right: -8px; width: 72px; transform: rotate(14deg); }
+.hero .heart-a { bottom: -14px; left: -14px; width: 40px; transform: rotate(-15deg); }
+.hero .heart-b { top: 24px; left: -10px; width: 24px; transform: rotate(12deg); }
+
+/* card images (small) */
+.info .img-wrap { margin-bottom: 12px; }
+.info .crown    { top: -18px; right: -6px; width: 38px; transform: rotate(14deg); }
+.info .heart-a  { bottom: -8px; left: -8px; width: 24px; transform: rotate(-15deg); }
+.info .heart-b  { top: 14px; left: -6px; width: 14px; transform: rotate(12deg); }
+
 .hero img {
     border-radius: 12px;
     width: 600px;
